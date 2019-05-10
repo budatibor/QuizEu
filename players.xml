@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<players>
+        
+  
+  
+  
+  <player id="1">
+                
+    
+    
+    <Name>Sanyi</Name>
+                
+    
+    
+    <Score>48</Score>
+              
+  
+  
+  </player>
+      
+  
+  
+  <player id="2">
+            
+    
+    <Name>Sanyi</Name>
+            
+    
+    <Score>38</Score>
+          
+  
+  </player>
+    
+  
+  <player id="3">
+        
+    <Name>Sanyi</Name>
+        
+    <Score>52</Score>
+      
+  </player>
+  
+  <player id="4">
+    <Name>Sanyi</Name>
+    <Score>52</Score>
+  </player>
+</players>

@@ -1,0 +1,14 @@
+/home/tibi/IdeaProjects/QuizEu/src/main/java/controller/gameController.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/PlayerDom/Player.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/Questions/QuestionCountry.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/Questions/Question.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/Questions/QuestionDensity.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/CountryDom/InitCountriesData.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/Questions/QuestionArea.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/Questions/QuestionCapital.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/Questions/QuestionPopulation.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/controller/menuController.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/controller/QuizMain.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/GameHandler.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/CountryDom/Country.java
+/home/tibi/IdeaProjects/QuizEu/src/main/java/model/PlayerDom/PlayerHighscoreData.java
