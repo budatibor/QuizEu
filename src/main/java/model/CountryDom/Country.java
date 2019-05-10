@@ -1,6 +1,9 @@
 package model.CountryDom;
+import org.apache.log4j.Logger;
+
 
 public class Country {
+    private final static Logger LOGGER = Logger.getLogger(Country.class);
     private String name;
     private String capital;
     private float density;
@@ -13,6 +16,8 @@ public class Country {
         this.density = density;
         this.area = area;
         this.population = population;
+
+        LOGGER.debug(this.name + "is stored");
     }
 
     public String getName() {
