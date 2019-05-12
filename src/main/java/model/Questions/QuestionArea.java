@@ -19,13 +19,13 @@ public class QuestionArea extends Question {
         idx = 0;
         float currentArea = InitCountriesData.getCountryList().get(n).getArea();
 
-        while (oportunities.size()<4){
+        while (oportunities.size() < 4) {
             n = rand.nextInt(InitCountriesData.getCountryList().size());
-            if(!oportunities.contains(InitCountriesData.countryList.get(n).getName())) {
+            if (!oportunities.contains(InitCountriesData.countryList.get(n).getName())) {
                 addOportunity(InitCountriesData.countryList.get(n).getName());
                 counter++;
-                if(InitCountriesData.countryList.get(n).getArea()>currentArea){
-                    idx=counter;
+                if (InitCountriesData.countryList.get(n).getArea() > currentArea) {
+                    idx = counter;
                     currentArea = InitCountriesData.getCountryList().get(n).getArea();
                 }
             }

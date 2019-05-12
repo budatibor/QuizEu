@@ -33,9 +33,11 @@ public class Question {
     public void setIdx(int idx) {
         this.idx = idx;
     }
-    public void addOportunity(String oportunity){
-       oportunities.add(oportunity);
+
+    public void addOportunity(String oportunity) {
+        oportunities.add(oportunity);
     }
+
     public void setText(String text) {
         this.text = text;
     }

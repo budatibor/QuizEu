@@ -30,7 +30,7 @@ public class menuController {
 
         GameHandler gh = new GameHandler(gm);
 
-       // gm.upload();
+        // gm.upload();
     }
 
     public void openScoreboard(MouseEvent mouseEvent) throws IOException {

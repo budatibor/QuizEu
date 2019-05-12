@@ -80,17 +80,17 @@ public class GameHandler {
     public void isCorrect(int idx) throws IOException {
 <span class="nc bnc" id="L81" title="All 2 branches missed.">        if (actualQuestion.getIdx() == idx) {</span>
 <span class="nc" id="L82">            spree++;</span>
-<span class="nc" id="L83">            currentScore+=actualQuestion.getPoint();</span>
+<span class="nc" id="L83">            currentScore += actualQuestion.getPoint();</span>
 <span class="nc" id="L84">            initialize();</span>
 
         } else {
-<span class="nc" id="L87">            score+=spree*currentScore;</span>
-<span class="nc" id="L88">            currentScore=0;</span>
+<span class="nc" id="L87">            score += spree * currentScore;</span>
+<span class="nc" id="L88">            currentScore = 0;</span>
 <span class="nc" id="L89">            lifes--;</span>
 <span class="nc" id="L90">            spree = 0;</span>
 <span class="nc bnc" id="L91" title="All 2 branches missed.">            if (lifes &gt; 0)</span>
 <span class="nc" id="L92">                initialize();</span>
-            else{
+            else {
 <span class="nc" id="L94">                System.out.println(getScore());</span>
 <span class="nc" id="L95">                saveScoreToDatabase();</span>
                 //QuizMain.getProba().close();

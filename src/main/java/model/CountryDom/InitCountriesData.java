@@ -18,6 +18,7 @@ import java.util.List;
 public class InitCountriesData {
 
     public static List<Country> countryList;
+
     public static List<Country> getCountryList() {
         return countryList;
     }
@@ -43,25 +44,24 @@ public class InitCountriesData {
             NodeList nodelist = document.getElementsByTagName("country");
 
             countryList = new ArrayList<>();
-            for(int i=0; i<nodelist.getLength(); i++)
-            {
+            for (int i = 0; i < nodelist.getLength(); i++) {
                 Node node = nodelist.item(i);
                 //System.out.println(node.getNodeName());
 
-                if(node.getNodeType() == Node.ELEMENT_NODE){
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) node;
                     //System.out.println("Neptun kod: " + element.getAttribute("neptun"));
                     name = element.getElementsByTagName("name").item(0).getTextContent();
                     capital = element.getElementsByTagName("capital").item(0).getTextContent();
                     density = Float.parseFloat(element.getElementsByTagName("density").item(0).getTextContent());
-                    area =  Float.parseFloat(element.getElementsByTagName("area").item(0).getTextContent());
-                    population =  Long.parseLong(element.getElementsByTagName("population").item(0).getTextContent());
+                    area = Float.parseFloat(element.getElementsByTagName("area").item(0).getTextContent());
+                    population = Long.parseLong(element.getElementsByTagName("population").item(0).getTextContent());
 
                     countryList.add(new Country(name, capital, density, area, population));
                 }
             }
 
-          //  for (var x: countryList)
+            //  for (var x: countryList)
             //    System.out.println(x);
 
         } catch (ParserConfigurationException e) {

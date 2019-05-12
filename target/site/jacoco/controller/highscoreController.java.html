@@ -22,28 +22,27 @@ import java.io.IOException;
     public TableColumn&lt;Player, String&gt; nameCollumn;
     public TableColumn&lt;Player, String&gt; scoreCollumn;
 
-    public void updateTable()
-    {
-<span class="nc" id="L27">        nameCollumn.setCellValueFactory(y-&gt;new SimpleStringProperty(y.getValue().getName()));</span>
-<span class="nc" id="L28">        scoreCollumn.setCellValueFactory(y-&gt;new SimpleStringProperty(String.valueOf(y.getValue().getScore())));</span>
-<span class="nc" id="L29">        scoreTable.setItems(FXCollections.observableList(PlayerHighscoreData.extractFromDatabase()));</span>
-<span class="nc" id="L30">        scoreTable.setEditable(false);</span>
-<span class="nc" id="L31">    }</span>
+    public void updateTable() {
+<span class="nc" id="L26">        nameCollumn.setCellValueFactory(y -&gt; new SimpleStringProperty(y.getValue().getName()));</span>
+<span class="nc" id="L27">        scoreCollumn.setCellValueFactory(y -&gt; new SimpleStringProperty(String.valueOf(y.getValue().getScore())));</span>
+<span class="nc" id="L28">        scoreTable.setItems(FXCollections.observableList(PlayerHighscoreData.extractFromDatabase()));</span>
+<span class="nc" id="L29">        scoreTable.setEditable(false);</span>
+<span class="nc" id="L30">    }</span>
 
     public void backClick(MouseEvent mouseEvent) throws IOException {
 
-<span class="nc" id="L35">        Stage stage = QuizMain.getProba();</span>
+<span class="nc" id="L34">        Stage stage = QuizMain.getProba();</span>
 
-<span class="nc" id="L37">        FXMLLoader fl = new FXMLLoader(getClass().getClassLoader().getResource(&quot;menu.fxml&quot;));</span>
+<span class="nc" id="L36">        FXMLLoader fl = new FXMLLoader(getClass().getClassLoader().getResource(&quot;menu.fxml&quot;));</span>
 
-<span class="nc" id="L39">        AnchorPane a = fl.load();</span>
+<span class="nc" id="L38">        AnchorPane a = fl.load();</span>
 
-<span class="nc" id="L41">        Scene scene1 = new Scene(a);</span>
+<span class="nc" id="L40">        Scene scene1 = new Scene(a);</span>
 
-<span class="nc" id="L43">        stage.setScene(scene1);</span>
+<span class="nc" id="L42">        stage.setScene(scene1);</span>
 
-<span class="nc" id="L45">        stage.show();</span>
+<span class="nc" id="L44">        stage.show();</span>
 
-<span class="nc" id="L47">    }</span>
+<span class="nc" id="L46">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

@@ -6,32 +6,29 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import model.CountryDom.InitCountriesData;
-import model.PlayerDom.Player;
-import model.PlayerDom.PlayerHighscoreData;
 
-
-<span class="nc" id="L13">public class QuizMain extends Application {</span>
+<span class="nc" id="L10">public class QuizMain extends Application {</span>
     public static Stage getProba() {
-<span class="nc" id="L15">        return proba;</span>
+<span class="nc" id="L12">        return proba;</span>
     }
 
     private static Stage proba;
-    public static void main(String[] args)
-    {
-<span class="nc" id="L21">        launch(args);</span>
-<span class="nc" id="L22">    }</span>
+
+    public static void main(String[] args) {
+<span class="nc" id="L18">        launch(args);</span>
+<span class="nc" id="L19">    }</span>
 
     @Override
     public void start(Stage stage) throws Exception {
-<span class="nc" id="L26">        proba = stage;</span>
-<span class="nc" id="L27">        stage.setTitle(&quot;QuizEu&quot;);</span>
-<span class="nc" id="L28">        AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getClassLoader().getResource(&quot;menu.fxml&quot;));</span>
-<span class="nc" id="L29">        Scene scene1 = new Scene(a);</span>
-<span class="nc" id="L30">        stage.setScene(scene1);</span>
-<span class="nc" id="L31">        InitCountriesData.InitCountriesData();</span>
-<span class="nc" id="L32">        stage.show();</span>
+<span class="nc" id="L23">        proba = stage;</span>
+<span class="nc" id="L24">        stage.setTitle(&quot;QuizEu&quot;);</span>
+<span class="nc" id="L25">        AnchorPane a = (AnchorPane) FXMLLoader.load(getClass().getClassLoader().getResource(&quot;menu.fxml&quot;));</span>
+<span class="nc" id="L26">        Scene scene1 = new Scene(a);</span>
+<span class="nc" id="L27">        stage.setScene(scene1);</span>
+<span class="nc" id="L28">        InitCountriesData.InitCountriesData();</span>
+<span class="nc" id="L29">        stage.show();</span>
 
-<span class="nc" id="L34">    }</span>
+<span class="nc" id="L31">    }</span>
 
 
 }

@@ -1,5 +1,7 @@
 package model.Questions;
+
 import model.CountryDom.InitCountriesData;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -16,9 +18,9 @@ public class QuestionCapital extends Question {
         setIdx(rand.nextInt(4));
 
 
-        while (oportunities.size()<4){
+        while (oportunities.size() < 4) {
             n = rand.nextInt(InitCountriesData.getCountryList().size());
-            if(!oportunities.contains(InitCountriesData.countryList.get(n).getCapital()))
+            if (!oportunities.contains(InitCountriesData.countryList.get(n).getCapital()))
                 addOportunity(InitCountriesData.countryList.get(n).getCapital());
         }
         Collections.swap(oportunities, idx, 0);

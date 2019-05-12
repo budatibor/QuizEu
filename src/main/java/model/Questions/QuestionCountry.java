@@ -1,4 +1,5 @@
 package model.Questions;
+
 import model.CountryDom.InitCountriesData;
 
 import java.util.ArrayList;
@@ -16,13 +17,13 @@ public class QuestionCountry extends Question {
         addOportunity(InitCountriesData.getCountryList().get(n).getName());
         setIdx(rand.nextInt(4));
 
-       // System.out.println(this.getText());
+        // System.out.println(this.getText());
 
 
-        while (oportunities.size()<4){
+        while (oportunities.size() < 4) {
             n = rand.nextInt(InitCountriesData.getCountryList().size());
 
-            if(!oportunities.contains(InitCountriesData.countryList.get(n).getName())){
+            if (!oportunities.contains(InitCountriesData.countryList.get(n).getName())) {
                 addOportunity(InitCountriesData.countryList.get(n).getName());
             }
         }

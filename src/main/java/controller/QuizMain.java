@@ -6,9 +6,6 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import model.CountryDom.InitCountriesData;
-import model.PlayerDom.Player;
-import model.PlayerDom.PlayerHighscoreData;
-
 
 public class QuizMain extends Application {
     public static Stage getProba() {
@@ -16,8 +13,8 @@ public class QuizMain extends Application {
     }
 
     private static Stage proba;
-    public static void main(String[] args)
-    {
+
+    public static void main(String[] args) {
         launch(args);
     }
 

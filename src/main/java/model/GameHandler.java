@@ -80,17 +80,17 @@ public class GameHandler {
     public void isCorrect(int idx) throws IOException {
         if (actualQuestion.getIdx() == idx) {
             spree++;
-            currentScore+=actualQuestion.getPoint();
+            currentScore += actualQuestion.getPoint();
             initialize();
 
         } else {
-            score+=spree*currentScore;
-            currentScore=0;
+            score += spree * currentScore;
+            currentScore = 0;
             lifes--;
             spree = 0;
             if (lifes > 0)
                 initialize();
-            else{
+            else {
                 System.out.println(getScore());
                 saveScoreToDatabase();
                 //QuizMain.getProba().close();

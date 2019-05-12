@@ -22,10 +22,9 @@ public class highscoreController {
     public TableColumn<Player, String> nameCollumn;
     public TableColumn<Player, String> scoreCollumn;
 
-    public void updateTable()
-    {
-        nameCollumn.setCellValueFactory(y->new SimpleStringProperty(y.getValue().getName()));
-        scoreCollumn.setCellValueFactory(y->new SimpleStringProperty(String.valueOf(y.getValue().getScore())));
+    public void updateTable() {
+        nameCollumn.setCellValueFactory(y -> new SimpleStringProperty(y.getValue().getName()));
+        scoreCollumn.setCellValueFactory(y -> new SimpleStringProperty(String.valueOf(y.getValue().getScore())));
         scoreTable.setItems(FXCollections.observableList(PlayerHighscoreData.extractFromDatabase()));
         scoreTable.setEditable(false);
     }
