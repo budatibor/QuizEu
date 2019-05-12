@@ -5,10 +5,12 @@
 /home/tibi/myGit/QuizEu/src/main/java/model/Questions/QuestionCapital.java
 /home/tibi/myGit/QuizEu/src/main/java/controller/menuController.java
 /home/tibi/myGit/QuizEu/src/main/java/controller/QuizMain.java
+/home/tibi/myGit/QuizEu/src/main/java/controller/highscoreController.java
 /home/tibi/myGit/QuizEu/src/main/java/controller/gameController.java
 /home/tibi/myGit/QuizEu/src/main/java/model/CountryDom/InitCountriesData.java
 /home/tibi/myGit/QuizEu/src/main/java/model/Questions/QuestionCountry.java
 /home/tibi/myGit/QuizEu/src/main/java/model/Questions/QuestionArea.java
 /home/tibi/myGit/QuizEu/src/main/java/model/GameHandler.java
 /home/tibi/myGit/QuizEu/src/main/java/model/Questions/Question.java
+/home/tibi/myGit/QuizEu/src/main/java/controller/savingController.java
 /home/tibi/myGit/QuizEu/src/main/java/model/Questions/QuestionPopulation.java

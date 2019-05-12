@@ -2,60 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cfbf4d-f154-434e-8825-e974dcf61853" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/savingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/saving.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/saving.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/highscoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/highscore.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/GameHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/QuizEu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/countries.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/players.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/controller/QuizMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/controller/gameController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/controller/menuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/CountryDom/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/CountryDom/InitCountriesData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/GameHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/PlayerDom/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/PlayerDom/PlayerHighscoreData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/Questions/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/Questions/QuestionArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/Questions/QuestionCapital.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/Questions/QuestionCountry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/Questions/QuestionDensity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/java/model/Questions/QuestionPopulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/resources/eu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/resources/game.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/src/main/resources/menu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/META-INF/QuizEu.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/controller/QuizMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/controller/gameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/controller/menuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/eu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/game.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/menu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/CountryDom/Country.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/CountryDom/InitCountriesData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/GameHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/PlayerDom/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/PlayerDom/PlayerHighscoreData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/Questions/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/Questions/QuestionArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/Questions/QuestionCapital.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/Questions/QuestionCountry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/Questions/QuestionDensity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/classes/model/Questions/QuestionPopulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuizEu/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/players.xml" beforeDir="false" afterPath="$PROJECT_DIR$/players.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/gameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/menuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/menuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/gameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/gameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/savingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/savingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/QuizEu-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/controller/menuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/menuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/savingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/savingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/PlayerDom/PlayerHighscoreData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/PlayerDom/PlayerHighscoreData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/licenses.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/licenses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/scm.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/scm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,23 +52,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/QuizMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/GameHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,90 +65,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/menuController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/model/GameHandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/savingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="120" selection-start-line="22" selection-start-column="120" selection-end-line="22" selection-end-column="120" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/game.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="99" selection-start-line="34" selection-start-column="99" selection-end-line="34" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/players.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/saving.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="8" column="210" selection-start-line="8" selection-start-column="210" selection-end-line="8" selection-end-column="210" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/gameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="277">
+              <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -193,6 +89,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -228,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/main/java/model/QuestionCapital.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/InitCountriesData.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/QuestionCountry.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/menu.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/QuizMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Questions/Question.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Questions/QuestionCountry.java" />
@@ -241,16 +137,20 @@
         <option value="$PROJECT_DIR$/countries.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/CountryDom/InitCountriesData.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PlayerDom/Player.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/CountryDom/Country.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/QuizMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/gameController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/menuController.java" />
         <option value="$PROJECT_DIR$/players.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/saving.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/model/GameHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/menu.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/highscore.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/menuController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/savingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/highscoreController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/model/GameHandlerTest.java" />
       </list>
     </option>
   </component>
@@ -294,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,38 +226,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuizEu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuizEu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QuizEu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QuizEu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557686995451" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557692972826" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Jumper_Game" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -446,7 +341,7 @@
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21931697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22198506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49359658" visible="true" weight="0.1069869" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49359658" visible="true" weight="0.1069869" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573106" weight="0.27729258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -695,20 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/PlayerDom/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/CountryDom/InitCountriesData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -719,37 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/players.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/QuizMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/gameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -764,50 +618,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PlayerDom/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/menuController.java">
+    <entry file="file://$PROJECT_DIR$/players.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/saving.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
+        <state relative-caret-position="120">
           <caret line="8" column="210" selection-start-line="8" selection-start-column="210" selection-end-line="8" selection-end-column="210" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+        <state relative-caret-position="222">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/menu.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/savingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="120" selection-start-line="22" selection-start-column="120" selection-end-line="22" selection-end-column="120" />
+        <state relative-caret-position="495">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/menuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/highscoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="36" column="93" selection-start-line="36" selection-start-column="93" selection-end-line="36" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/gameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/highscore.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="93" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/GameHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/GameHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

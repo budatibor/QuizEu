@@ -1,0 +1,17 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+QuizEu,controller,menuController,76,0,0,0,21,0,3,0,3,0
+QuizEu,controller,gameController,92,0,2,0,20,0,7,0,6,0
+QuizEu,controller,QuizMain,33,0,0,0,12,0,4,0,4,0
+QuizEu,controller,highscoreController,64,0,0,0,13,0,5,0,5,0
+QuizEu,controller,savingController,49,0,2,0,12,0,4,0,3,0
+QuizEu,model.PlayerDom,Player,35,0,0,0,12,0,5,0,5,0
+QuizEu,model.PlayerDom,PlayerHighscoreData,232,0,6,0,65,0,6,0,3,0
+QuizEu,model,GameHandler,185,0,10,0,51,0,16,0,9,0
+QuizEu,model.Questions,Question,41,0,0,0,14,0,10,0,10,0
+QuizEu,model.Questions,QuestionCountry,73,0,4,0,14,0,3,0,1,0
+QuizEu,model.Questions,QuestionDensity,94,0,6,0,21,0,4,0,1,0
+QuizEu,model.Questions,QuestionArea,94,0,6,0,21,0,4,0,1,0
+QuizEu,model.Questions,QuestionCapital,73,0,4,0,14,0,3,0,1,0
+QuizEu,model.Questions,QuestionPopulation,94,0,6,0,21,0,4,0,1,0
+QuizEu,model.CountryDom,InitCountriesData,111,0,4,0,27,0,5,0,3,0
+QuizEu,model.CountryDom,Country,54,0,0,0,15,0,8,0,8,0

@@ -1,10 +1,12 @@
 controller/gameController.class
+controller/savingController.class
 model/CountryDom/Country.class
 model/Questions/QuestionDensity.class
 model/Questions/QuestionArea.class
 model/CountryDom/InitCountriesData.class
 model/Questions/QuestionCountry.class
 model/PlayerDom/PlayerHighscoreData.class
+controller/highscoreController.class
 model/Questions/Question.class
 model/GameHandler.class
 controller/menuController.class

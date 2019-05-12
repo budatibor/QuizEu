@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>InitCountriesData.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">QuizEu</a> &gt; <a href="index.source.html" class="el_package">model.CountryDom</a> &gt; <span class="el_source">InitCountriesData.java</span></div><h1>InitCountriesData.java</h1><pre class="source lang-java linenums">package model.CountryDom;
+
+import model.CountryDom.Country;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+<span class="nc" id="L18">public class InitCountriesData {</span>
+
+    public static List&lt;Country&gt; countryList;
+    public static List&lt;Country&gt; getCountryList() {
+<span class="nc" id="L22">        return countryList;</span>
+    }
+
+
+    public static void InitCountriesData() {
+        try {
+
+            String name;
+            String capital;
+            float density;
+            float area;
+            long population;
+<span class="nc" id="L34">            File input = new File(&quot;countries.xml&quot;);</span>
+<span class="nc" id="L35">            DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();</span>
+<span class="nc" id="L36">            DocumentBuilder db = dbf.newDocumentBuilder();</span>
+
+<span class="nc" id="L38">            Document document = db.parse(input);</span>
+
+
+<span class="nc" id="L41">            document.getDocumentElement().normalize();</span>
+
+<span class="nc" id="L43">            NodeList nodelist = document.getElementsByTagName(&quot;country&quot;);</span>
+
+<span class="nc" id="L45">            countryList = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L46" title="All 2 branches missed.">            for(int i=0; i&lt;nodelist.getLength(); i++)</span>
+            {
+<span class="nc" id="L48">                Node node = nodelist.item(i);</span>
+                //System.out.println(node.getNodeName());
+
+<span class="nc bnc" id="L51" title="All 2 branches missed.">                if(node.getNodeType() == Node.ELEMENT_NODE){</span>
+<span class="nc" id="L52">                    Element element = (Element) node;</span>
+                    //System.out.println(&quot;Neptun kod: &quot; + element.getAttribute(&quot;neptun&quot;));
+<span class="nc" id="L54">                    name = element.getElementsByTagName(&quot;name&quot;).item(0).getTextContent();</span>
+<span class="nc" id="L55">                    capital = element.getElementsByTagName(&quot;capital&quot;).item(0).getTextContent();</span>
+<span class="nc" id="L56">                    density = Float.parseFloat(element.getElementsByTagName(&quot;density&quot;).item(0).getTextContent());</span>
+<span class="nc" id="L57">                    area =  Float.parseFloat(element.getElementsByTagName(&quot;area&quot;).item(0).getTextContent());</span>
+<span class="nc" id="L58">                    population =  Long.parseLong(element.getElementsByTagName(&quot;population&quot;).item(0).getTextContent());</span>
+
+<span class="nc" id="L60">                    countryList.add(new Country(name, capital, density, area, population));</span>
+                }
+            }
+
+          //  for (var x: countryList)
+            //    System.out.println(x);
+
+<span class="nc" id="L67">        } catch (ParserConfigurationException e) {</span>
+<span class="nc" id="L68">            e.printStackTrace();</span>
+<span class="nc" id="L69">        } catch (IOException e) {</span>
+<span class="nc" id="L70">            e.printStackTrace();</span>
+<span class="nc" id="L71">        } catch (SAXException e) {</span>
+<span class="nc" id="L72">            e.printStackTrace();</span>
+<span class="nc" id="L73">        }</span>
+<span class="nc" id="L74">    }</span>
+
+
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

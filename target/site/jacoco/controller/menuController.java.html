@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>menuController.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">QuizEu</a> &gt; <a href="index.source.html" class="el_package">controller</a> &gt; <span class="el_source">menuController.java</span></div><h1>menuController.java</h1><pre class="source lang-java linenums">package controller;
+
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+import model.GameHandler;
+
+import java.io.IOException;
+
+<span class="nc" id="L12">public class menuController {</span>
+    public void initQuiz(MouseEvent mouseEvent) throws IOException {
+        //System.out.println(&quot;Amerre en jarok, lopnak a ciganyok&quot;);
+<span class="nc" id="L15">        gameController gm = new gameController();</span>
+
+<span class="nc" id="L17">        Stage stage = QuizMain.getProba();</span>
+
+<span class="nc" id="L19">        FXMLLoader fl = new FXMLLoader(getClass().getClassLoader().getResource(&quot;game.fxml&quot;));</span>
+
+<span class="nc" id="L21">        fl.setController(gm);</span>
+
+<span class="nc" id="L23">        AnchorPane a = fl.load();</span>
+
+<span class="nc" id="L25">        Scene scene1 = new Scene(a);</span>
+
+<span class="nc" id="L27">        stage.setScene(scene1);</span>
+
+<span class="nc" id="L29">        stage.show();</span>
+
+<span class="nc" id="L31">        GameHandler gh = new GameHandler(gm);</span>
+
+       // gm.upload();
+<span class="nc" id="L34">    }</span>
+
+    public void openScoreboard(MouseEvent mouseEvent) throws IOException {
+
+<span class="nc" id="L38">        highscoreController hc = new highscoreController();</span>
+
+<span class="nc" id="L40">        Stage stage = QuizMain.getProba();</span>
+
+<span class="nc" id="L42">        FXMLLoader fl = new FXMLLoader(getClass().getClassLoader().getResource(&quot;highscore.fxml&quot;));</span>
+
+<span class="nc" id="L44">        fl.setController(hc);</span>
+
+<span class="nc" id="L46">        AnchorPane a = fl.load();</span>
+
+<span class="nc" id="L48">        Scene scene1 = new Scene(a);</span>
+
+<span class="nc" id="L50">        stage.setScene(scene1);</span>
+
+<span class="nc" id="L52">        stage.show();</span>
+
+<span class="nc" id="L54">        hc.updateTable();</span>
+
+<span class="nc" id="L56">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

@@ -1,30 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <players>
-      
+              
+  
+  
+  
+  
   
   
   <player id="1">
-            
+                            
+    
+    
+    
+    
     
     <name>qwertyuio</name>
-            
+                            
+    
+    
+    
+    
     
     <score>123</score>
+                          
+  
+  
+  
+  
+  
+  </player>
+            
+  
+  
+  
+  
+  
+  <player id="2">
+                        
+    
+    
+    
+    
+    <name>Buda Tibor</name>
+                        
+    
+    
+    
+    
+    <score>0</score>
+                      
+  
+  
+  
+  
+  </player>
+          
+  
+  
+  
+  
+  <player id="3">
+                    
+    
+    
+    
+    <name>Nemethi Szilard</name>
+                    
+    
+    
+    
+    <score>150</score>
+                  
+  
+  
+  
+  </player>
+        
+  
+  
+  
+  <player id="4">
+                
+    
+    
+    <name>Ajajaj</name>
+                
+    
+    
+    <score>14</score>
+              
+  
+  
+  </player>
+      
+  
+  
+  <player id="5">
+            
+    
+    <name>Zsofia</name>
+            
+    
+    <score>32</score>
           
   
   </player>
     
   
-  <player id="2">
+  <player id="6">
         
-    <name>Buda Tibor</name>
+    <name>Pista</name>
         
-    <score>0</score>
+    <score>10</score>
       
   </player>
   
-  <player id="3">
-    <name>Nemethi Szilard</name>
-    <score>150</score>
+  <player id="7">
+    <name>Jancsi</name>
+    <score>12</score>
   </player>
 </players>
