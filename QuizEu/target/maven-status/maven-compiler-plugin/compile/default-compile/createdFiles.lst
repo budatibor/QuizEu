@@ -1,8 +1,0 @@
-controller/gameController.class
-model/InitCountriesData.class
-model/Questions/Question.class
-controller/menuController.class
-model/Country.class
-controller/QuizMain.class
-model/Questions/QuestionCapital.class
-model/Questions/QuestionCountry.class

@@ -37,15 +37,15 @@ public class gameController {
         gameHandler.isCorrect(0);
     }
 
-    public void secondChoiceClicked(MouseEvent mouseEvent) {
+    public void secondChoiceClicked(MouseEvent mouseEvent) throws IOException {
         gameHandler.isCorrect(1);
     }
 
-    public void thirdChoiceClicked(MouseEvent mouseEvent) {
+    public void thirdChoiceClicked(MouseEvent mouseEvent) throws IOException {
         gameHandler.isCorrect(2);
     }
 
-    public void fourthChoiceClicked(MouseEvent mouseEvent) {
+    public void fourthChoiceClicked(MouseEvent mouseEvent) throws IOException {
         gameHandler.isCorrect(3);
     }
 }

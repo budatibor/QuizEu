@@ -1,7 +1,9 @@
 package model.PlayerDom;
+
 import model.CountryDom.Country;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
+
 import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
@@ -15,7 +17,7 @@ import java.util.ArrayList;
 public class PlayerHighscoreData {
     private static ArrayList<Player> players;
 
-    public static void insertIntoDatabase(@org.jetbrains.annotations.NotNull Player p){
+    public static void insertIntoDatabase(@org.jetbrains.annotations.NotNull Player p) {
         try {
 
             File input = new File("players.xml");
@@ -27,12 +29,12 @@ public class PlayerHighscoreData {
 
             Element playerDom = document.createElement("player");
             Attr attr = document.createAttribute("id");
-            attr.setValue(String.valueOf(document.getElementsByTagName("player").getLength()+1));
+            attr.setValue(String.valueOf(document.getElementsByTagName("player").getLength() + 1));
             playerDom.setAttributeNode(attr);
-            Node firstName = document.createElement("Name");
+            Node firstName = document.createElement("name");
             firstName.appendChild(document.createTextNode(p.getName()));
             playerDom.appendChild(firstName);
-            Node score = document.createElement("Score");
+            Node score = document.createElement("score");
             score.appendChild(document.createTextNode(String.valueOf(p.getScore())));
             playerDom.appendChild(score);
 
@@ -53,7 +55,7 @@ public class PlayerHighscoreData {
 
 
         } catch (
-            ParserConfigurationException e) {
+                ParserConfigurationException e) {
             e.printStackTrace();
         } catch (SAXException e) {
             e.printStackTrace();
@@ -64,16 +66,11 @@ public class PlayerHighscoreData {
         } catch (TransformerException e) {
             e.printStackTrace();
         }
-        //for(var x : PlayerHighscoreData.extractFromDatabase())
-         //  System.out.println(x);
+
     }
 
 
-
-
-
-
-    public static ArrayList<Player> extractFromDatabase(){
+    public static ArrayList<Player> extractFromDatabase() {
         try {
 
             String name;
@@ -90,19 +87,24 @@ public class PlayerHighscoreData {
 
             NodeList nodelist = document.getElementsByTagName("player");
             players = new ArrayList<>();
-            for(int i=0; i<nodelist.getLength(); i++)
-            {
+
+            for (int i = 0; i < nodelist.getLength(); i++) {
                 Node node = nodelist.item(i);
-                //System.out.println(node.getNodeName());
 
-                if(node.getNodeType() == Node.ELEMENT_NODE){
+                System.out.println(node);
+
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
+
                     Element element = (Element) node;
-                    //System.out.println("Neptun kod: " + element.getAttribute("neptun"));
-                    name = element.getElementsByTagName("name").item(0).getTextContent();
-                    score = Integer.parseInt(element.getElementsByTagName("score").item(0).getTextContent());
-                    id = Integer.parseInt(element.getAttribute("id"));
+                    if (element != null) {
+                        System.out.println(element);
+                        //System.out.println("Neptun kod: " + element.getAttribute("neptun"));
+                        name = element.getElementsByTagName("name").item(0).getTextContent();
+                        score = Integer.parseInt(element.getElementsByTagName("score").item(0).getTextContent());
+                        id = Integer.parseInt(element.getAttribute("id"));
 
-                    players.add(new Player(name, score, id));
+                        players.add(new Player(name, score, id));
+                    }
                 }
             }
         } catch (ParserConfigurationException e) {

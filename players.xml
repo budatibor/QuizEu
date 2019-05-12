@@ -1,47 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <players>
-        
-  
-  
-  
-  <player id="1">
-                
-    
-    
-    <Name>Sanyi</Name>
-                
-    
-    
-    <Score>48</Score>
-              
-  
-  
-  </player>
       
   
   
-  <player id="2">
+  <player id="1">
             
     
-    <Name>Sanyi</Name>
+    <name>qwertyuio</name>
             
     
-    <Score>38</Score>
+    <score>123</score>
           
   
   </player>
     
   
-  <player id="3">
+  <player id="2">
         
-    <Name>Sanyi</Name>
+    <name>Buda Tibor</name>
         
-    <Score>52</Score>
+    <score>0</score>
       
   </player>
   
-  <player id="4">
-    <Name>Sanyi</Name>
-    <Score>52</Score>
+  <player id="3">
+    <name>Nemethi Szilard</name>
+    <score>150</score>
   </player>
 </players>

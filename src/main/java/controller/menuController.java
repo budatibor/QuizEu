@@ -26,8 +26,6 @@ public class menuController {
 
         stage.setScene(scene1);
 
-        //InitCountriesData.InitCountriesData();
-
         stage.show();
 
         GameHandler gh = new GameHandler(gm);
