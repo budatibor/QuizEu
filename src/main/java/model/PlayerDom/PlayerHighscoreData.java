@@ -1,4 +1,5 @@
 package model.PlayerDom;
+import org.apache.log4j.Logger;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 import javax.xml.transform.*;
@@ -24,6 +25,8 @@ public class PlayerHighscoreData {
      */
     private static ArrayList<Player> players;
 
+    private final static Logger LOGGER = Logger.getLogger(PlayerHighscoreData.class);
+
     /**
      * This method also extracts data from a Dom Database so it can add the new
      * player to the end of its records. This is where the player (or the game)
@@ -32,6 +35,7 @@ public class PlayerHighscoreData {
      */
     public static void insertIntoDatabase(@org.jetbrains.annotations.NotNull Player p) {
         try {
+
             //File input = new File(PlayerHighscoreData.class.getClassLoader().getResource("players.xml").getFile());
             File input = new File("players.xml");
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
@@ -64,18 +68,23 @@ public class PlayerHighscoreData {
             t.setOutputProperty(OutputKeys.INDENT, "yes");
             t.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "2");
             t.transform(source, result);
+            LOGGER.info("New player added in xml");
 
 
         } catch (
                 ParserConfigurationException e) {
+            LOGGER.error("Error while adding a player");
             e.printStackTrace();
         } catch (SAXException e) {
             e.printStackTrace();
+            LOGGER.error("Error while adding a player");
         } catch (IOException e) {
             e.printStackTrace();
+            LOGGER.error("Error while adding a player");
         } catch (TransformerConfigurationException e) {
             e.printStackTrace();
         } catch (TransformerException e) {
+            LOGGER.error("Error while adding a player");
             e.printStackTrace();
         }
 
@@ -132,7 +141,7 @@ public class PlayerHighscoreData {
         } catch (SAXException e) {
             e.printStackTrace();
         }
-
+        LOGGER.info("Players extracted from xml");
         return players;
     }
 }

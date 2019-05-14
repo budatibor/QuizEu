@@ -28,7 +28,7 @@ public class Country {
         this.area = area;
         this.population = population;
 
-        LOGGER.debug(this.name + "is stored");
+        LOGGER.debug(this.name + " is stored");
     }
 
     /**

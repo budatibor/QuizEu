@@ -1,195 +1,252 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <players>
-                
+                  
+  
   
   
   
   
   
   <player id="1">
-                                
+                                    
+    
     
     
     
     
     
     <name>elso</name>
-                                
+                                    
+    
     
     
     
     
     
     <score>123</score>
-                            
+                                
+  
   
   
   
   
   
   </player>
-                
+                  
+  
   
   
   
   
   
   <player id="2">
-                                
+                                    
+    
     
     
     
     
     
     <name>Buda Tibor</name>
-                                
+                                    
+    
     
     
     
     
     
     <score>0</score>
-                            
+                                
+  
   
   
   
   
   
   </player>
-                
+                  
+  
   
   
   
   
   
   <player id="3">
-                                
+                                    
+    
     
     
     
     
     
     <name>Nemethi Szilard</name>
-                                
+                                    
+    
     
     
     
     
     
     <score>150</score>
-                            
+                                
+  
   
   
   
   
   
   </player>
-                
+                  
+  
   
   
   
   
   
   <player id="4">
-                                
+                                    
+    
     
     
     
     
     
     <name>Proba4</name>
-                                
+                                    
+    
     
     
     
     
     
     <score>14</score>
-                            
+                                
+  
   
   
   
   
   
   </player>
-                
+                  
+  
   
   
   
   
   
   <player id="5">
-                                
+                                    
+    
     
     
     
     
     
     <name>Zsofia</name>
-                                
+                                    
+    
     
     
     
     
     
     <score>32</score>
-                            
+                                
+  
   
   
   
   
   
   </player>
-                
+                  
+  
   
   
   
   
   
   <player id="6">
-                                
+                                    
+    
     
     
     
     
     
     <name>Pista</name>
-                                
+                                    
+    
     
     
     
     
     
     <score>10</score>
-                            
+                                
+  
   
   
   
   
   
   </player>
-                
+                  
+  
   
   
   
   
   
   <player id="7">
-                                
+                                    
+    
     
     
     
     
     
     <name>Jancsi</name>
-                                
+                                    
+    
     
     
     
     
     
     <score>12</score>
+                                
+  
+  
+  
+  
+  
+  
+  </player>
+              
+  
+  
+  
+  
+  
+  
+  <player id="8">
                             
+    
+    
+    
+    
+    
+    <name>Hollo</name>
+                            
+    
+    
+    
+    
+    
+    <score>842</score>
+                          
   
   
   
@@ -202,19 +259,19 @@
   
   
   
-  <player id="8">
+  <player id="9">
                         
     
     
     
     
-    <name>Hollo</name>
+    <name>Papai Joci Iq score</name>
                         
     
     
     
     
-    <score>842</score>
+    <score>0</score>
                       
   
   
@@ -226,17 +283,17 @@
   
   
   
-  <player id="9">
+  <player id="10">
                     
     
     
     
-    <name>Papai Joci Iq score</name>
+    <name>tizennyolc</name>
                     
     
     
     
-    <score>0</score>
+    <score>18</score>
                   
   
   
@@ -246,15 +303,15 @@
   
   
   
-  <player id="10">
+  <player id="11">
                 
     
     
-    <name>tizennyolc</name>
+    <name>negyvennegy</name>
                 
     
     
-    <score>18</score>
+    <score>44</score>
               
   
   
@@ -262,28 +319,28 @@
       
   
   
-  <player id="11">
+  <player id="12">
             
     
-    <name>negyvennegy</name>
+    <name/>
             
     
-    <score>44</score>
+    <score>0</score>
           
   
   </player>
     
   
-  <player id="12">
+  <player id="13">
         
-    <name/>
+    <name>Zero</name>
         
     <score>0</score>
       
   </player>
   
-  <player id="13">
-    <name>Zero</name>
-    <score>0</score>
+  <player id="14">
+    <name>LOGGER</name>
+    <score>18</score>
   </player>
 </players>

@@ -1,11 +1,11 @@
 package model.PlayerDom;
-
+import org.apache.log4j.Logger;
 
 /**
  * This is the representation of the player class.
  */
 public class Player {
-
+    private final static Logger LOGGER = Logger.getLogger(Player.class);
     private String name;
     private int score;
     private int id;
@@ -18,6 +18,7 @@ public class Player {
     public Player(String name, int score) {
         this.name = name;
         this.score = score;
+        LOGGER.debug(this.name + "is stored");
     }
 
     /**
@@ -30,6 +31,7 @@ public class Player {
         this.name = name;
         this.score = score;
         this.id = id;
+        LOGGER.debug(this.name + "is extracted");
     }
 
     /**

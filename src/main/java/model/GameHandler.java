@@ -8,11 +8,14 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import model.Questions.*;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+
 
 /**
  *  The class which handles the game and it's in consistent
@@ -23,6 +26,7 @@ import java.util.Random;
  *  At the end the game handler calclates the score and opens a new window where the player can save his score.
  */
 public class GameHandler {
+    private final static Logger LOGGER = Logger.getLogger(GameHandler.class);
     /**
      * spree - how mony consecutive answers does the player have?
      */
@@ -98,6 +102,7 @@ public class GameHandler {
      * @param fx test or not
      */
     public GameHandler(GameController gm, boolean fx) {
+        LOGGER.info("The game has been started!");
         this.gm = gm;
         pastQuestions = new ArrayList<Question>();
         spree = 0;
@@ -132,6 +137,7 @@ public class GameHandler {
      */
     public void saveScoreToDatabase() throws IOException {
 
+        LOGGER.info("opening saving window...");
         sc = new SavingController();
         Stage stage = QuizMain.getProba();
 
@@ -157,6 +163,7 @@ public class GameHandler {
      * @throws IOException
      */
     public void isCorrect(int idx) throws IOException {
+       LOGGER.info("Checking if it's correct!");
         if (actualQuestion.getIdx() == idx) {
             spree++;
             currentScore += actualQuestion.getPoint();
@@ -176,6 +183,7 @@ public class GameHandler {
             }
 
         }
+
 
     }
 
@@ -202,11 +210,14 @@ public class GameHandler {
             case 4:
                 actualQuestion = new QuestionPopulation();
                 break;
+
         }
+        LOGGER.debug("New question has been generated!");
 
         pastQuestions.add(actualQuestion);
         if(fx) {
             gm.upload(this);
+            LOGGER.info("updating UI . . .");
         }
     }
 }
