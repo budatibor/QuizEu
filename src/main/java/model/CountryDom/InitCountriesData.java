@@ -26,9 +26,7 @@ public class InitCountriesData {
 
     public static void InitCountriesData() {
         try {
-            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 
-            //File input = new File(classLoader.getResource("countries.xml").getFile());
             File input = new File(InitCountriesData.class.getClassLoader().getResource("countries.xml").getFile());
 
             String name;

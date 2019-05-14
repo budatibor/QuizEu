@@ -24,6 +24,10 @@ public class GameHandler {
     private List<Question> pastQuestions;
     private controller.gameController gm;
     private controller.savingController sc;
+    private boolean fx;
+
+    public GameHandler() {
+    }
 
     public Question getActualQuestion() {
         return actualQuestion;
@@ -37,17 +41,19 @@ public class GameHandler {
         return spree;
     }
 
-    public GameHandler(gameController gm) {
+    public GameHandler(gameController gm, boolean fx) {
         this.gm = gm;
         pastQuestions = new ArrayList<Question>();
         spree = 0;
         lifes = 3;
         score = 0;
         currentScore = 0;
+        this.fx = fx;
 
 
-        initialize();
+        initialize(fx);
     }
+
 
     public int getScore() {
         return score;
@@ -81,7 +87,7 @@ public class GameHandler {
         if (actualQuestion.getIdx() == idx) {
             spree++;
             currentScore += actualQuestion.getPoint();
-            initialize();
+            initialize(fx);
 
         } else {
             score += spree * currentScore;
@@ -89,7 +95,7 @@ public class GameHandler {
             lifes--;
             spree = 0;
             if (lifes > 0)
-                initialize();
+                initialize(fx);
             else {
                 System.out.println(getScore());
                 saveScoreToDatabase();
@@ -100,7 +106,7 @@ public class GameHandler {
 
     }
 
-    public void initialize() {
+    public void initialize(boolean fx) {
         Random rand = new Random();
         switch (rand.nextInt(5)) {
             case 0:
@@ -119,8 +125,10 @@ public class GameHandler {
                 actualQuestion = new QuestionPopulation();
                 break;
         }
-        pastQuestions.add(actualQuestion);
-        gm.upload(this);
 
+        pastQuestions.add(actualQuestion);
+        if(fx) {
+            gm.upload(this);
+        }
     }
 }

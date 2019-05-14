@@ -28,7 +28,7 @@ public class menuController {
 
         stage.show();
 
-        GameHandler gh = new GameHandler(gm);
+        GameHandler gh = new GameHandler(gm, true);
 
         // gm.upload();
     }
