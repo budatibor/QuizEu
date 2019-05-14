@@ -5,7 +5,15 @@ import model.CountryDom.InitCountriesData;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * Question about the area of the countries
+ * where the opportunities are country names
+ */
 public class QuestionArea extends Question {
+    /**
+     * the constructor of the class where everything is setup.
+     * It can acces the getter and setters from it's parrnt class.
+     */
     public QuestionArea() {
         Random rand = new Random();
         int n = rand.nextInt(InitCountriesData.getCountryList().size());

@@ -5,8 +5,15 @@ import model.CountryDom.InitCountriesData;
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * Question about the density of the countries
+ * where the opportunities are country names.
+ */
 public class QuestionDensity extends Question {
-
+    /**
+     * the constructor of the class where everything is setup.
+     * It can acces the getter and setters from it's parrnt class.
+     */
     public QuestionDensity() {
 
         Random rand = new Random();

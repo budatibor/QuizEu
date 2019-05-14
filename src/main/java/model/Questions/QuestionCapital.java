@@ -6,9 +6,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
+/**
+ * Question about the capital of the countries
+ * where the opportunities are country names
+ */
 public class QuestionCapital extends Question {
     /**
-     *
+     * the constructor of the class where everything is setup.
+     * It can acces the getter and setters from it's parrnt class.
      */
     public QuestionCapital() {
         Random rand = new Random();

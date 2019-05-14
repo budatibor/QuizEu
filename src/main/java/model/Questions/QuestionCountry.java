@@ -6,8 +6,15 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
+/**
+ * Question about the name of the countries
+ * where the opportunities are capitals.
+ */
 public class QuestionCountry extends Question {
-
+    /**
+     * the constructor of the class where everything is setup.
+     * It can acces the getter and setters from it's parrnt class.
+     */
     public QuestionCountry() {
         Random rand = new Random();
         int n = rand.nextInt(InitCountriesData.getCountryList().size());

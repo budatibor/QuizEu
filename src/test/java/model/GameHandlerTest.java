@@ -8,7 +8,7 @@ import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class GameHandlerTest {
+public class GameHandlerTest {
 
     private GameController gc;
     private GameHandler gh;

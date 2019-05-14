@@ -14,15 +14,34 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This is the static class where I initialize all the information about the countries
+ * from database. I use it only once when I'm running the project and the data is
+ * stored in the whole process. I use DOM to store my data.
+ */
 public class InitCountriesData {
 
+    /**
+     * This is the list of countries extracted from database.
+     * The variable is static because its not worth rereading data
+     * the database because these informations will not change.
+     */
     public static List<Country> countryList;
 
+    /**
+     * This is how you can acces the list of countries if they are stored.
+     * @return List&lt;String&gt; the list of countries
+     */
     public static List<Country> getCountryList() {
         return countryList;
     }
 
-
+    /**
+     * The method Initializes the database which is a DOM database.
+     * Its searching for "coutry" elemnt tags, extracts data from it
+     * and calls the country classes contructor before adding it to
+     * the list which the game can acces through the whole process
+     */
     public static void InitCountriesData() {
         try {
 

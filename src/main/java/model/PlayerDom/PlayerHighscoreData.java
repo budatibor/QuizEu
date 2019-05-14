@@ -11,9 +11,25 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
+/**
+ * PlayerHigscoreData class is a static class where I work with DOM database
+ * to store and extract data about players who played the game and it also
+ * has two methods for these purposes.
+ */
 public class PlayerHighscoreData {
+    /**
+     * List where the data of the players are stored.
+     * In this list the players are put in with an id.
+     */
     private static ArrayList<Player> players;
 
+    /**
+     * This method also extracts data from a Dom Database so it can add the new
+     * player to the end of its records. This is where the player (or the game)
+     * gets an id that is equal with the number of records + 1.
+     * @param p, player data waiting to be stored.
+     */
     public static void insertIntoDatabase(@org.jetbrains.annotations.NotNull Player p) {
         try {
             //File input = new File(PlayerHighscoreData.class.getClassLoader().getResource("players.xml").getFile());
@@ -65,7 +81,13 @@ public class PlayerHighscoreData {
 
     }
 
-
+    /**
+     * This is where the data of the players are extracted from DOM.
+     * At this faze the it's using the Player classes constructor with three parameters,
+     * because the id is extracted as well. It's searching for the player element to find
+     * these data.
+     * @return ArrayList&lt;Player&gt; the list of players whom played the game
+     */
     public static ArrayList<Player> extractFromDatabase() {
         try {
 
