@@ -9,7 +9,7 @@
         </layout>
     </appender>-->
     <appender name="rollingFile" class="org.apache.log4j.RollingFileAppender">
-        <param name="file" value="SpaceInvaders.log"/>
+        <param name="file" value="QuizEuLog.log"/>
         <param name="MaxFileSize" value="1MB" />
         <param name="MaxBackupIndex" value="10" />
         <layout class="org.apache.log4j.PatternLayout">

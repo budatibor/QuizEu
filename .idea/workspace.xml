@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8cfbf4d-f154-434e-8825-e974dcf61853" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Questions/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/highscoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/HighscoreController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/menuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/savingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/SavingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/CountryDom/InitCountriesData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/CountryDom/InitCountriesData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/PlayerDom/PlayerHighscoreData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/countries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/countries.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/players.xml" beforeDir="false" afterPath="$PROJECT_DIR$/players.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/GameHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/GameHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/gameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/highscoreController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/menuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/savingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/menu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/CountryDom/InitCountriesData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/CountryDom/InitCountriesData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/GameHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/GameHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/PlayerDom/PlayerHighscoreData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/PlayerDom/PlayerHighscoreData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/model/GameHandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/model/GameHandlerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -112,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="633">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
             </state>
           </provider>
         </entry>
@@ -405,7 +383,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557838883507" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557839197026" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Jumper_Game" />
@@ -564,7 +542,7 @@
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22998933" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22998933" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -573,7 +551,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.3293348" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49306297" visible="true" weight="0.18340611" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49306297" visible="true" weight="0.18340611" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49573106" weight="0.27729258" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -991,8 +969,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="633">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
     </entry>
