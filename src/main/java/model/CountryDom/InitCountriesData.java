@@ -28,7 +28,8 @@ public class InitCountriesData {
         try {
             ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 
-            File input = new File(classLoader.getResource("countries.xml").getFile());
+            //File input = new File(classLoader.getResource("countries.xml").getFile());
+            File input = new File(InitCountriesData.class.getClassLoader().getResource("countries.xml").getFile());
 
             String name;
             String capital;

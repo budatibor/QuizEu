@@ -7,7 +7,9 @@ import java.util.Collections;
 import java.util.Random;
 
 public class QuestionCapital extends Question {
-
+    /**
+     *
+     */
     public QuestionCapital() {
         Random rand = new Random();
         int n = rand.nextInt(InitCountriesData.getCountryList().size());

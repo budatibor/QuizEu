@@ -16,15 +16,11 @@ public class PlayerHighscoreData {
 
     public static void insertIntoDatabase(@org.jetbrains.annotations.NotNull Player p) {
         try {
-
-            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
-
-            File input = new File(classLoader.getResource("players.xml").getFile());
+            File input = new File(PlayerHighscoreData.class.getClassLoader().getResource("players.xml").getFile());
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
 
             Document document = db.parse(input);
-            //document.getDocumentElement().normalize();
 
             Element playerDom = document.createElement("player");
             Attr attr = document.createAttribute("id");
@@ -76,9 +72,7 @@ public class PlayerHighscoreData {
             int score;
             int id;
 
-            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
-
-            File input = new File(classLoader.getResource("players.xml").getFile());
+            File input =new File(PlayerHighscoreData.class.getClassLoader().getResource("players.xml").getFile());
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
 

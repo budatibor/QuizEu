@@ -12,6 +12,10 @@ public class Question {
         return point;
     }
 
+    /**
+     *
+     * @param point
+     */
     public void setPoint(int point) {
         this.point = point;
     }
