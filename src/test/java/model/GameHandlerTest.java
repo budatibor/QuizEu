@@ -1,6 +1,6 @@
 package model;
 
-import controller.gameController;
+import controller.GameController;
 import model.CountryDom.InitCountriesData;
 import org.junit.jupiter.api.Test;
 
@@ -10,12 +10,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GameHandlerTest {
 
-    private gameController gc;
+    private GameController gc;
     private GameHandler gh;
 
     @org.junit.jupiter.api.BeforeEach
     void setUp() {
-        gc = new gameController();
+        gc = new GameController();
         InitCountriesData.InitCountriesData();
         gh = new GameHandler(gc, false);
 

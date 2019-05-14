@@ -135,7 +135,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.2</version>
+                <version>0.8.3</version>
                 <executions>
                     <execution>
                         <id>jacoco-initialize</id>
@@ -175,6 +175,13 @@
                         </reports>
                     </reportSet>
                 </reportSets>
+                <configuration>
+                    <excludes>
+                        <exclude>controller/**/*</exclude>
+                        <exclude>model/PlayerDom/*</exclude>
+                    </excludes>
+
+                </configuration>
             </plugin>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>

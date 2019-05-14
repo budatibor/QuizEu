@@ -16,7 +16,7 @@ import model.PlayerDom.PlayerHighscoreData;
 import java.io.IOException;
 
 
-public class highscoreController {
+public class HighscoreController {
 
     public TableView scoreTable;
     public TableColumn<Player, String> nameCollumn;

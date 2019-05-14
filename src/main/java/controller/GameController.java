@@ -8,7 +8,7 @@ import model.GameHandler;
 
 import java.io.IOException;
 
-public class gameController {
+public class GameController {
     public Button firstChoice;
     public Button secondChoice;
     public Button thirdChoice;

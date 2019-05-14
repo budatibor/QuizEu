@@ -1,6 +1,5 @@
 package model.CountryDom;
 
-import model.CountryDom.Country;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -27,8 +26,8 @@ public class InitCountriesData {
     public static void InitCountriesData() {
         try {
 
-            File input = new File(InitCountriesData.class.getClassLoader().getResource("countries.xml").getFile());
-
+            //File input = new File(InitCountriesData.class.getClassLoader().getResource("countries.xml").getFile());
+            File input = new File("countries.xml");
             String name;
             String capital;
             float density;

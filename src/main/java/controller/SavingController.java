@@ -13,7 +13,7 @@ import model.PlayerDom.PlayerHighscoreData;
 import java.io.IOException;
 
 
-public class savingController {
+public class SavingController {
 
     public TextField playerName;
     public Label scoreLabel;

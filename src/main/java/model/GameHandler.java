@@ -1,11 +1,10 @@
 package model;
 
 import controller.QuizMain;
-import controller.gameController;
-import controller.savingController;
+import controller.GameController;
+import controller.SavingController;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import model.Questions.*;
@@ -15,15 +14,42 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ *
+ */
 public class GameHandler {
+    /**
+     *
+     */
     private int spree;
+    /**
+     *
+     */
     private int currentScore;
+    /**
+     *
+     */
     private int lifes;
+    /**
+     *
+     */
     private int score;
+    /**
+     *
+     */
     private Question actualQuestion;
+    /**
+     *
+     */
     private List<Question> pastQuestions;
-    private controller.gameController gm;
-    private controller.savingController sc;
+    /**
+     *
+     */
+    private GameController gm;
+    /**
+     *
+     */
+    private SavingController sc;
     private boolean fx;
 
     public GameHandler() {
@@ -41,7 +67,7 @@ public class GameHandler {
         return spree;
     }
 
-    public GameHandler(gameController gm, boolean fx) {
+    public GameHandler(GameController gm, boolean fx) {
         this.gm = gm;
         pastQuestions = new ArrayList<Question>();
         spree = 0;
@@ -65,7 +91,7 @@ public class GameHandler {
 
     public void saveScoreToDatabase() throws IOException {
 
-        sc = new savingController();
+        sc = new SavingController();
         Stage stage = QuizMain.getProba();
 
         FXMLLoader fl = new FXMLLoader(getClass().getClassLoader().getResource("saving.fxml"));

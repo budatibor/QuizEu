@@ -9,10 +9,10 @@ import model.GameHandler;
 
 import java.io.IOException;
 
-public class menuController {
+public class MenuController {
     public void initQuiz(MouseEvent mouseEvent) throws IOException {
         //System.out.println("Amerre en jarok, lopnak a ciganyok");
-        gameController gm = new gameController();
+        GameController gm = new GameController();
 
         Stage stage = QuizMain.getProba();
 
@@ -35,7 +35,7 @@ public class menuController {
 
     public void openScoreboard(MouseEvent mouseEvent) throws IOException {
 
-        highscoreController hc = new highscoreController();
+        HighscoreController hc = new HighscoreController();
 
         Stage stage = QuizMain.getProba();
 
