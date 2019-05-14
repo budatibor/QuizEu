@@ -26,13 +26,16 @@ public class InitCountriesData {
 
     public static void InitCountriesData() {
         try {
+            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+
+            File input = new File(classLoader.getResource("countries.xml").getFile());
 
             String name;
             String capital;
             float density;
             float area;
             long population;
-            File input = new File("countries.xml");
+
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
 
@@ -50,7 +53,7 @@ public class InitCountriesData {
 
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element) node;
-                    //System.out.println("Neptun kod: " + element.getAttribute("neptun"));
+
                     name = element.getElementsByTagName("name").item(0).getTextContent();
                     capital = element.getElementsByTagName("capital").item(0).getTextContent();
                     density = Float.parseFloat(element.getElementsByTagName("density").item(0).getTextContent());
@@ -60,9 +63,6 @@ public class InitCountriesData {
                     countryList.add(new Country(name, capital, density, area, population));
                 }
             }
-
-            //  for (var x: countryList)
-            //    System.out.println(x);
 
         } catch (ParserConfigurationException e) {
             e.printStackTrace();

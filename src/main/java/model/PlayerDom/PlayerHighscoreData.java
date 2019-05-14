@@ -1,9 +1,6 @@
 package model.PlayerDom;
-
-import model.CountryDom.Country;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
-
 import javax.xml.transform.*;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
@@ -20,7 +17,9 @@ public class PlayerHighscoreData {
     public static void insertIntoDatabase(@org.jetbrains.annotations.NotNull Player p) {
         try {
 
-            File input = new File("players.xml");
+            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+
+            File input = new File(classLoader.getResource("players.xml").getFile());
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
 
@@ -77,7 +76,9 @@ public class PlayerHighscoreData {
             int score;
             int id;
 
-            File input = new File("players.xml");
+            ClassLoader classLoader = ClassLoader.getSystemClassLoader();
+
+            File input = new File(classLoader.getResource("players.xml").getFile());
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
 
