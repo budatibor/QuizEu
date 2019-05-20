@@ -22,7 +22,7 @@ public class GameController {
     GameHandler gameHandler;
 
 
-    public void upload(GameHandler gameHandler) {
+    public void upload(GameHandler gameHandler, int goodAnswer) {
         this.gameHandler=gameHandler;
         firstChoice.setText(gameHandler.getActualQuestion().getOportunities().get(0));
         secondChoice.setText(gameHandler.getActualQuestion().getOportunities().get(1));
@@ -31,6 +31,10 @@ public class GameController {
         question.setText(gameHandler.getActualQuestion().getText());
         liveLabel.setText(String.valueOf(gameHandler.getLifes()));
         scoreLabel.setText(String.valueOf(gameHandler.getScore()));
+        if(goodAnswer == 0)
+            question.setStyle("-fx-background-color:#c23f3f");
+        if(goodAnswer == 1)
+            question.setStyle("-fx-background-color:#94cc81");
         if(gameHandler.getCurrentScore() != 0)
             comboLabel.setText("+" + gameHandler.getCurrentScore() + " X " + gameHandler.getSpree() );
     }

@@ -119,8 +119,6 @@ public class PlayerHighscoreData {
             for (int i = 0; i < nodelist.getLength(); i++) {
                 Node node = nodelist.item(i);
 
-                System.out.println(node);
-
                 if (node.getNodeType() == Node.ELEMENT_NODE) {
 
                     Element element = (Element) node;

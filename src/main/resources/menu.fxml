@@ -14,21 +14,21 @@
       </Label>
       <AnchorPane layoutX="194.0" layoutY="203.0" prefHeight="216.0" prefWidth="213.0">
          <children>
-            <Button layoutX="50.0" mnemonicParsing="false" onMouseClicked="#initQuiz" prefHeight="73.0" prefWidth="111.0" style="-fx-background-color: #212343;" text="START" textFill="#ff3b3b">
+            <Button defaultButton="true" layoutX="50.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#initQuiz" prefHeight="73.0" prefWidth="111.0" style="-fx-background-color: #212343;" text="START" textFill="#ff3b3b">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button fx:id="scoreboardButton" layoutX="50.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#openScoreboard" prefHeight="61.0" prefWidth="111.0" text="Scoreboard">
+            <Button fx:id="scoreboardButton" layoutX="50.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#openScoreboard" prefHeight="67.0" prefWidth="111.0" style="-fx-background-color: #212343;" text="Scoreboard" textFill="#ff3b3b">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
             </Button>
          </children>
       </AnchorPane>
-      <Label layoutX="146.0" layoutY="21.0" prefHeight="49.0" prefWidth="308.0" text="Wellcome to QuizEu!">
+      <Label layoutX="121.0" layoutY="14.0" prefHeight="49.0" prefWidth="360.0" text="Wellcome to QuizEu!">
          <font>
-            <Font name="System Bold Italic" size="26.0" />
+            <Font name="System Bold Italic" size="30.0" />
          </font>
       </Label>
    </children>

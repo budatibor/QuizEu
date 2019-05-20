@@ -68,6 +68,8 @@ public class GameHandler {
     /**
      * empty contructor
      */
+
+    private int goodAnswer;
     public GameHandler() {
     }
 
@@ -110,7 +112,7 @@ public class GameHandler {
         score = 0;
         currentScore = 0;
         this.fx = fx;
-
+        goodAnswer = 2;
 
         initialize(fx);
     }
@@ -167,6 +169,7 @@ public class GameHandler {
         if (actualQuestion.getIdx() == idx) {
             spree++;
             currentScore += actualQuestion.getPoint();
+            goodAnswer = 1;
             initialize(fx);
 
         } else {
@@ -174,12 +177,12 @@ public class GameHandler {
             currentScore = 0;
             lifes--;
             spree = 0;
-            if (lifes > 0)
+            if (lifes > 0){
+                goodAnswer = 0;
                 initialize(fx);
+            }
             else {
-                System.out.println(getScore());
                 saveScoreToDatabase();
-                //QuizMain.getProba().close();
             }
 
         }
@@ -216,7 +219,7 @@ public class GameHandler {
 
         pastQuestions.add(actualQuestion);
         if(fx) {
-            gm.upload(this);
+            gm.upload(this, goodAnswer);
             LOGGER.info("updating UI . . .");
         }
     }

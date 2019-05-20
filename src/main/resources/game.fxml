@@ -17,13 +17,13 @@
          </font></Button>
       <Button fx:id="thirdChoice" layoutX="295.0" layoutY="293.0" mnemonicParsing="false" onMouseClicked="#thirdChoiceClicked" prefHeight="33.0" prefWidth="282.0">
          <font>
-            <Font name="Noto Sans Old Italic Regular" size="18.0" />
+            <Font name="DejaVu Sans Bold" size="18.0" />
          </font></Button>
       <Button fx:id="fourthChoice" layoutX="295.0" layoutY="347.0" mnemonicParsing="false" onMouseClicked="#fourthChoiceClicked" prefHeight="33.0" prefWidth="282.0">
          <font>
             <Font name="DejaVu Sans Bold" size="18.0" />
          </font></Button>
-      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="107.0" layoutY="66.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="75.0" prefWidth="686.0" textAlignment="CENTER" textFill="#942929" wrapText="true" AnchorPane.topAnchor="66.0">
+      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="107.0" layoutY="66.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="75.0" prefWidth="686.0" textAlignment="CENTER" textFill="#2d322c" wrapText="true" AnchorPane.topAnchor="66.0">
          <font>
             <Font name="System Bold Italic" size="24.0" />
          </font></Label>
@@ -32,7 +32,10 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Label fx:id="liveLabel" layoutX="85.0" layoutY="441.0" prefHeight="19.0" prefWidth="53.0" />
+      <Label fx:id="liveLabel" layoutX="85.0" layoutY="441.0" prefHeight="19.0" prefWidth="53.0">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font></Label>
       <Label layoutX="634.0" layoutY="430.0" prefHeight="41.0" prefWidth="90.0" text="Score:">
          <font>
             <Font name="System Bold" size="20.0" />
